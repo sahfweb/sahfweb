@@ -1,11 +1,363 @@
-
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>
-Shubham Yadav
-</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <script type="text/javascript" src="index.js"></script>
+
+        <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css"/>
+
 </head>
 <body>
-<h1> Here You can see website progress</h1>
+    <header class="topbar">
+        <div class="menlogo">
+            <img src="images1/logo1.jpg">
+        </div>
+        <div class="menu">
+            <i class="fa-solid fa-bars"  onclick="opensidemenu()"></i>
+        </div>
+        <div class="headdivclass"> 
+            <div class="socialicon">
+                <a href="#" id="fac"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" id="inst"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="#" id="twit"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <div class="login">
+                <a href="#" ><i class="fa-solid fa-user"></i> Log in </a></div>
+            <div class="donatebtn">
+                <a href="donate"><i class="fa-sharp fa-solid fa-heart"></i>  DONATE</a>
+            </div>
+        </div>
+    </header>
+    <nav id="navbar">
+        <i class="fa-solid fa-xmark" id="crossbtn" onclick="closessidemenu()"></i>
+        <ul>
+            <li> <a href="home"><i class="fa-solid fa-house-chimney"></i> HOME</a></li>
+            <li><a href="about"><i class="fa-solid fa-user"></i> ABOUT       <span class="fas fa-angle-down"></span></a>
+                <ul>
+                   <li><a href="ouerview">OVERVIEW</a></li>
+                   <li><a href="vision & mission">VISION & MISSION</a></li>
+                   <li><a href="meet our team">MEET OUR TEAM</a></li>
+                   <li><a href="testimonials">TESTIMONIALS</a></li>
+                </ul>
+            </li>
+            <li><a href="causes"><i class="fa-solid fa-notes-medical"></i> CAUSES   <span class="fas fa-angle-down"></span></a>
+                <ul>
+                   <li><a href="education">EDUCATION</a></li>
+                   <li><a href="healthcare">HEALTHCARE</a></li>
+                   <li><a href="livelihood"> LIVWLIHOOD</a></li>
+                </ul>
+            </li><li><a href="events"><i class="fa-regular fa-calendar-days"></i> EVENTS     <span class="fas fa-angle-down"></span></a>
+                <ul>
+                   <li><a href="upcoming event">UOCOMING EVENT</a></li>
+                   <li><a href="event"> EVENTS</a></li>
+                </ul>
+            </li>
+            <li><a href="gallery"><i class="fa-brands fa-envira"></i> GALLERY    <span class="fas fa-angle-down"></span></a>
+                <ul>
+                   <li><a href="education">EDUCATION</a></li>
+                   <li><a href="women empow">WOMEN EMPOW.</a></li>
+                   <li><a href="healthcare">HEALTHCARE </a></li>
+                   <li><a href="enviroment">ENVIROMENT</a></li>
+                   <li><a href="our volunteers"> OUR VOLUNTEERS</a></li>
+                </ul>
+            </li>
+            <li><a href="BLOG"><i class="fa-brands fa-blogger-b"></i> BLOG</a></li>
+            <li><a href="get involved"><i class="fa-solid fa-people-arrows"></i> Get INVOLVED      <span class="fas fa-angle-down"></span>  </a>
+                <ul>
+                   <li><a href="volunteer"> VOLUNTEER</a></li>
+                   <li><a href="corporated paratnership">CORPORATE PARATNERSHIP</a></li>
+                   <li><a href="career">CAREER</a></li>
+                   <li><a href="faqs">FAQS</a></li>
+                </ul>
+            </li>
+            <li><a href="announcement"><i class="fa-sharp fa-solid fa-scroll"></i> ANNOUNCEMENT</a></li>
+            <li><a href="contact"><i class="fa-solid fa-address-book"></i> CONTACT</a> </li>
+        </ul> 
+    </nav>
+    <section class="main swiper mySwiper">
+        <div class="wrapper swiper-wrapper">
+            <div class="slide swiper-slide">
+                <img src="images1/homeimg1.jpg" alt=""class="image"/>
+                <div class="image-date">
+                    <h2>this is my first project</h2>
+                    <span class="text">my name is amit jhgjhkjl hyjiyk 
+                        thid this this this</span>
+                    <div class="mendont">    
+                        <a href="donate"> DONATE</a>
+                        <a href="donate"> Read more</a>
+                    </div>    
+                </div>
+            </div>
+            <div class="slide swiper-slide">
+                <img src="images1/homeimg2.jpg" alt=""class="image"/>
+                <div class="image-date">
+                    <h2>this is my first project</h2>
+                    <span class="text">my name is amit jhgjhkjl hyjiyk 
+                        thid this this this</span>
+                    <div class="mendont">    
+                       <a href="donate"> DONATE</a>
+                       <a href="donate"> Read more</a>
+                    </div>   
+                </div>
+            </div>
+            <div class="slide swiper-slide">
+                <img src="images1/homeimg3.jpg" alt=""class="image"/>
+                <div class="image-date">
+                    <h2>this is my first project</h2>
+                    <span class="text">my name is amit jhgjhkjl hyjiyk 
+                        thid this this this</span>
+                    <div class="mendont">    
+                       <a href="donate"> DONATE</a>
+                       <a href="donate"> Read more</a>
+                    </div>   
+                </div>
+            </div>
+            <div class="slide swiper-slide">
+                <img src="images1/homeimg4.jpg" alt=""class="image"/>
+                <div class="image-date">
+                    <h2>this is my first project</h2>
+                    <span class="text">my name is amit jhgjhkjl hyjiyk 
+                        thid this this this</span>
+                    <div class="mendont">    
+                       <a href="donate"> DONATE</a>
+                       <a href="donate"> Read more</a>
+                    </div>   
+                </div>
+            </div>
+        </div>
+        <div class="swiper-button-next nav-btn"></div>
+        <div class="swiper-button-prev nav-btn"></div>
+        <div class="swiper-pagination "></div>
+    </section>
+    <section class="welcsection">
+        <div  class="welcomehu">
+            <h1 id="welh1">WELCOME TO</h1><h1 id="welh2">HUMANITY</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid dolore ratione excepturi iusto natus odit nesciunt provident
+                temporibus id! Cupiditate Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi nesciunt
+                 consequuntur ipsum. Nisi, illum incidunt cumque accusantium aspernatur cupiditate ipsum distinctio nostrum assumenda voluptatem odit deserunt doloremque facilis in eveniet?
+            </p>
+            <div id="readmorbtn">
+              <a href="read mor"> READ MORE</a>
+            </div>
+            <div id="sectdiv2img1" class="sectdiv2class1">
+              <img src="images1/homeimg6.jpg" class="sectdiv2img">
+              <div class="welcomelogo">
+                <i class="fa-solid fa-book-open-reader"></i>
+              </div>
+              <h2>We Care Education </h2>
+              <p>Lorem ipsum dolor sit, amet consectetur
+                 adipisicing elit. Ducimus possimus,
+                  laudantium quisquam officiis alias</p>
+            </div>
+            <div id="sectdiv2img2" class="sectdiv2class1">
+              <img src="images1/homeimg7.jpg" class="sectdiv2img">
+              <div class="welcomelogo">
+                <i class="fa-solid fa-notes-medical"></i>
+              </div>
+              <h2>We Care Health </h2>
+              <p>Lorem ipsum dolor sit, amet consectetur
+                 adipisicing elit. Ducimus possimus,
+                  laudantium quisquam officiis alias</p>
+            </div>
+            <div id="sectdiv2img3" class="sectdiv2class1">
+              <img src="images1/homeimg8.jpg" class="sectdiv2img">
+              <div class="welcomelogo">
+                <i class="fa-solid fa-graduation-cap"></i>
+              </div>
+              <h2>We Care Livelihood </h2>
+              <p>Lorem ipsum dolor sit, amet consectetur
+                 adipisicing elit. Ducimus possimus,
+                  laudantium quisquam officiis alias</p>
+            </div>
+            <div id="sectdiv2img4" class="sectdiv2class1">
+              <img src="images1/homeimg9.jpg" class="sectdiv2img">
+              <div class="welcomelogo">
+              <i class="fa-solid fa-dollar-sign"></i>
+              </div>
+              <h2>100% Gose to the Field </h2>
+              <p>Lorem ipsum dolor sit, amet consectetur
+                 adipisicing elit. Ducimus possimus,
+                  laudantium quisquam officiis alias</p>
+            </div>
+        </div>
+    </section>
+    <!-- Swiper -->
+    <section class="liveevent">
+        <div class="livehtop">
+            <h2 id="livehead1">LIVE CAMPAIGN/</h2><h2 id="livehead2">EVENT</h2>
+        </div>
+        <div id="liverimg1"class="liveeventimg">
+            <a href="#"> <img src="images1/img1.jpg"></a>
+            <h3>my name is amit kumar</h3>
+            <p> thi si my first page and i am amking is this is</p>
+        </div>
+        <div id="liverimg2"class="liveeventimg">
+            <a href="#"> <img src="images1/img2.jpg"></a>
+            <h3>my name is amit kumar</h3>
+            <p> thi si my first page and i am amking is this is</p>
+        </div>
+        <div id="liverimg3"class="liveeventimg">
+            <a href="#"> <img src="images1/img3.jpg"></a>
+            <h3>my name is amit kumar</h3>
+            <p> thi si my first page and i am amking is this is</p>
+        </div>
+        <div id="liverimg4"class="liveeventimg">
+            <a href="#"> <img src="images1/img4.jpg"></a>
+            <h3>my name is amit kumar</h3>
+            <p> thi si my first page and i am amking is this is</p>
+        </div>
+    </section>
+    <section class="aboutour">
+        <div class="abouttop">
+            <h2 id="abouthead1">ABOUT OUR </h2><h2 id="abouthead2">HUMANITY</h2>
+        </div>
+        <div id="aboutimg1"class="aboutimgclass">
+            <a href="#"> <img src="images1/img5.jpg"></a>
+            <h3>What We Do</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit., 
+                culpa quibusdam ducimus minus magni, voluptatem quisquam 
+                possimus dolores impedit. Architecto, blanditiis neque quod
+               veniam ipsam quat.</p>
+        </div>
+        <div id="aboutimg2"class="aboutimgclass">
+            <a href="#"> <img src="images1/img6.jpeg"></a>
+            <h3>How It Works</h3>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit., 
+                culpa quibusdam ducimus minus magni, voluptatem quisquam 
+                possimus dolores impedit. Architecto, blanditiis neque quod
+               veniam ipsam quat.</p>
+        </div>
+        <h2>Years of Exprinence</h2>
+        <p id="aboutpar">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit non molestiae magni
+             fugiat dolore facere similique facilis corporis quod, cum dolorem maxime vel, perspiciatis
+              officia deserunt sint? Amet, perferendis? Voluptates praesentium, eius natus nostrum tenetur
+               nam tempora officiis provident fugiat odio ducimus odit numquam explicabo eaque repudiandae 
+               atic magni asperiores impedit voluptatem debitis ad! Perferendis Eveniet, labore?</p>
+        <div id="bottompar">
+            <p><i class="fa-solid fa-check"></i>  This mistaken idea of  pleasure</p>
+            <p> <i class="fa-solid fa-check"></i>This mistaken idea of  pleasure</p>
+            <p><i class="fa-solid fa-check"></i> Master-buildern of  happiness</p>
+            <p><i class="fa-solid fa-check"></i> Master-buildern of occur in toil</p>
+            <p><i class="fa-solid fa-check"></i> Master-buildern  physical exercise</p>
+        </div>
+    </section>
+    <section class="counter">
+        <div class="counterdiv1">
+            <h5>Went to join with us</h5>
+            <h2>BECOME A PROUD VOLUNTEER</h2>
+            <P>Lorem ipsum dolor sit amet consectetur
+                 adipisicing elit. Dolore fugit, libero
+                  illo nesciunt, temporibus magni exercitationem
+            </P>
+            <div class="volunteer-join1"> <a href="#">JOIN WITH US</a></div>
+        </div>
+        <div id="counter-Years" class="countershow">
+            <i class="fa-solid fa-calendar-check"></i>
+            <h2 class="counter-number">3+</h2>
+            <p>Years Exprinence</p>
+        </div>
+        <div id="counter-happychi"class="countershow">
+            <i class="fa-regular fa-face-smile"></i>
+            <h2 class="counter-number">40+</h2>
+            <p>HAPPY CHILDRENS</p>
+        </div>
+        <div id="counter-event"class="countershow">
+            <i class="fa-solid fa-globe"></i>
+            <h2 class="counter-number">10+</h2>
+            <p>ONLINE EVENTS</p>
+        </div>
+        <div id="counter-fund"class="countershow">
+            <i class="fa-solid fa-hand-holding-heart"></i>
+            <h2 class="counter-number">40000+</h2>
+            <p>FUND RAISED</p>
+        </div>
+    </section>
+
+    <section class="testimconta">
+        <h2 class="testimtoph1">WORDS FROM </h2>
+        <div class="testimonial">
+            <div class="testimonial-text">
+                <div class="user-textim">
+                    <i class="fa-solid fa-quote-left"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur
+                        adipisicing Pariatur ut suscipit
+                         excepturi assumenda soluta?
+                   </p>
+                   <h2>my name is amit 1</h2>
+                   <h4>MD</h4>
+                </div>
+                <div class="user-textim active-text">
+                    <i class="fa-solid fa-quote-left"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur
+                        adipisicing Pariatur ut suscipit
+                         excepturi assumenda soluta?
+                   </p>
+                   <h2>my name is amit 2</h2>
+                   <h4>MD</h4>
+                </div>
+                <div class="user-textim">
+                    <i class="fa-solid fa-quote-left"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur
+                        adipisicing Pariatur ut suscipit
+                         excepturi assumenda soluta?
+                   </p>
+                   <h2>my name is amit 3</h2>
+                   <h4>MD</h4>
+                </div>
+                <div class="user-textim">
+                    <i class="fa-solid fa-quote-left"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur
+                        adipisicing Pariatur ut suscipit
+                         excepturi assumenda soluta?
+                   </p>
+                   <h2>my name is amit 4</h2>
+                   <h4>MD</h4>
+                </div>
+                <div class="user-textim">
+                    <i class="fa-solid fa-quote-left"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur
+                        adipisicing Pariatur ut suscipit
+                         excepturi assumenda soluta?
+                   </p>
+                   <h2>my name is amit 5</h2>
+                   <h4>MD</h4>
+                </div>
+            </div>
+            <div class="testimonial-img">
+                 <img src="images1/img9.jpg" alt="" class="user-pic" onclick="showReview()">
+                 <img src="images1/img10.jpg" alt="" class="user-pic active-pic"onclick="showReview()">
+                 <img src="images1/img11.jpg" alt="" class="user-pic" onclick="showReview()">
+                 <img src="images1/img12.jpg" alt="" class="user-pic" onclick="showReview()">
+                 <img src="images1/img13.jpg" alt="" class="user-pic" onclick="showReview()">
+            </div>
+        </div>
+
+    </section> 
+
+     <!-- Swiper JS -->
+     <script text="text/javascript" src="swiper-bundle.min.js"></script>
+       <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 1,
+          spaceBetween: 2,
+          loop: true,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+    </script>
+
 </body>
 </html>
